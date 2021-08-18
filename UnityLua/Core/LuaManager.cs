@@ -8,7 +8,7 @@ namespace UnityLua
     public class LuaManager : MonoBehaviour
     {
         public static LuaState Ls = new LuaState();
-        const string EntryFile = "C:/Projects/Unity/UnityLua/Assets/UnityLua/main.lua";
+        const string EntryFile = "Assets/UnityLua/main.lua";
 
         private void CallUEFunction(string FuncName)
         {
